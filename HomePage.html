@@ -81,15 +81,34 @@ button{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-#contatti{
-  padding-top:55%;
-    padding-left:90%;
+
+ #contatti{
+   background-color: black;
+   position: absolute;
+   color: white;
+   height:150px;
+   width:100%;
+   
+
 }
+        #table{
+          color:white; 
+        }
 button:hover{
     color:black;
     background-color: white;
 }
-
+p{
+    color:transparent ;
+}
+p:hover{
+    
+        opacity:0.4; 
+        color:white;
+}
+        .p{
+          color:white; 
+        }
         </style> 
         </head>
         <body class="sfondo">
@@ -103,17 +122,33 @@ button:hover{
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Orari</a>
       <a href="#">Spa</a>
       <a href="#">Menù</a>
       <a href="#">Faq</a>
     </div>
   </div> 
 </div>
+<p align="center">
+    ATTENZIONE:questo sito è stato creato unicamente a scopo didattico, questo hotel è INESISTENTE.
+</p>
       <div id="contatti">
-           <button>
-            Contatti
-          </button>
+          <table align="center" id="table">
+            <tr>
+                <td width="20"></td>
+                  <td><br><br>recapito telefonico:</td>
+                    <td width="20"></td>
+                      <td><br><br>000-000-0001</td>
+                        <td width="100"></td>
+                          <td width="20"></td>
+                            <td><br><br>email:</td>
+                            <td width="20"></td>
+                            <td><br><br>hotelnautilus@hotel.sito</td>
+              </tr>
+               <p class="p" align="center">
+         Per consultare il nostro calendario e i prezzi, potete contattare la nostra reception tramite i contatti lasciati di seguito:
+        </p>
+          </table>
+       
           </div>
       </body>
 </html>
